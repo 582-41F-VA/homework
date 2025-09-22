@@ -21,7 +21,7 @@ type Account = {
     name: string;
     handle: string;
     avatar: URL;
-    is_verified: boolean;
+    isVerified: boolean;
 };
 ```
 
