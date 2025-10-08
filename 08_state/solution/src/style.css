@@ -1,0 +1,16 @@
+input {
+    border: 1px solid inherit;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+input.valid {
+    border-color: green;
+}
+
+li.checked {
+    list-style-type: "✓";
+    color: green;
+}

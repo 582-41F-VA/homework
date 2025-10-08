@@ -10,5 +10,4 @@ password's visiblity. The following criteria are listed below the input:
 
 These criteria are checked (✓) as they are met by users. When the input
 first receives focus, it is highlighted in red. Once all criteria are
-met, the input turns green, and the component invokes the `onValid`
-event handler with the password as its argument.
+met, the input turns green.
