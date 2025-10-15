@@ -1,0 +1,54 @@
+.invalid {
+    border: 1px solid red;
+}
+
+.clock {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+    width: 75vh;
+    border: 1px solid;
+    border-radius: 100%;
+}
+
+.hand {
+    position: absolute;
+    transform-origin: center bottom;
+    z-index: -1;
+}
+
+.hour-hand {
+    width: 10px;
+    height: 20%;
+    top: 30%;
+    background-color: black;
+}
+
+.minute-hand {
+    width: 8px;
+    height: 25%;
+    top: 25%;
+    background-color: black;
+}
+
+.second-hand {
+    width: 5px;
+    height: 45%;
+    top: 5%;
+    background-color: red;
+}
+
+label {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+input {
+    width: 4rem;
+}
+
+label + label {
+    margin-left: 0.5rem;
+}
