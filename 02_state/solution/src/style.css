@@ -1,0 +1,11 @@
+li {
+    display: none;
+}
+
+li.current {
+    display: block;
+}
+
+img {
+    width: 100%;
+}
